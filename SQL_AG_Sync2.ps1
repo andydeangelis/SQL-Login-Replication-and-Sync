@@ -2,6 +2,9 @@
 	.SYNOPSIS
 		This script creates a job to copy and sync all logins in a 2 node Availability Group environment
 		(or really, any pair of SQL Servers). User accepts all risks. Always test in a test environment first.
+
+		The script requires the use of the dbatool module (portable version included with this package).
+		More information regarding DBA tools can be found at https://dbatools.io/.
 	
 	.DESCRIPTION
 		A description of the file.
