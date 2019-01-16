@@ -1,0 +1,1 @@
+powershell.exe -File ".\SQL_AG_Sync2.ps1" -srcDBInstance "srcServer\srcInstance" -destDBInstance "destServer\destInstance" -agName "AGListener" -RunSilent
